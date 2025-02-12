@@ -26,7 +26,7 @@ To build the app from source, follow these steps:
 
 Clone this repository:
 
-git clone https://github.com/YOUR_GITHUB_USERNAME/StickItUp.git
+git clone gh repo clone B1ackVenom/StickItUp
 cd StickItUp
 
 Open the project in Android Studio.
