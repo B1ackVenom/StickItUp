@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="black">#121212</color>  <!-- Dark Background -->
+    <color name="gray">#1E1E1E</color>  <!-- Dark Gray -->
+    <color name="white">#FFFFFF</color>  <!-- Pure White -->
+    <color name="accent_blue">#2196F3</color>  <!-- Blue Accent -->
+
+    <!-- UI Elements -->
+    <color name="button_bg">#333333</color>  <!-- Button Background -->
+    <color name="button_text">#FFFFFF</color>  <!-- Button Text -->
+    <color name="card_bg">#1E1E1E</color>  <!-- Card Background -->
+</resources>

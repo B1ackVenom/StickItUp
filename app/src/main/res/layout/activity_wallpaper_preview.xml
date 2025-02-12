@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    tools:context=".WallpaperPreviewActivity">
+
+    <ImageView
+        android:id="@+id/previewImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/buttonLayout"/>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/setHomeScreenButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set as Home Screen"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#333333"/>
+
+        <Button
+            android:id="@+id/setLockScreenButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set as Lock Screen"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#333333"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/setBothButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set as Both"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#333333"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
